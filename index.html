@@ -244,13 +244,6 @@
         
         
            <p>对于某些视频，会因为一些不可抗因素而受到主流视频网站的下架或是不被引进。比如进击的某某，东京..。并且，就算一些视频现在还在视频网站中，但不知道多久以后就会消失，因此需要了解如何从网站中下载视频到本地。(此处指的是网站不提供直接下载的视频)</p>
-<p><label style="color:#696969"><b>需要的准备：软件：Chrome浏览器<label style="color:#A9A9A9">(一般来说，只要是含有开发人员工具的浏览器都行)</label>，迅雷X，格式工厂</b></label></p>
-<p>下面以Chrome浏览器为例：</p>
-<h2 id="1-打开相关工具"><a href="#1-打开相关工具" class="headerlink" title="1.打开相关工具"></a>1.打开相关工具</h2><p>打开视频网页和浏览器的‘开发人员工具’（按F12或浏览器右上角的自定义和控制选项中）<br><a href="https://imgchr.com/i/mpYoPf" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/08/12/mpYoPf.png" alt="mpYoPf.png"></a></p>
-<h2 id="2-获取视频分段文件链接"><a href="#2-获取视频分段文件链接" class="headerlink" title="2.获取视频分段文件链接"></a>2.获取视频分段文件链接</h2><p>将工具中选项切到Network下。推荐先Cral+R重置下网页，再播放视频并将进度条拖到视频末尾以确保视频加载完成。<br><a href="https://imgchr.com/i/mpURr4" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/08/12/mpURr4.jpg" alt="mpURr4.jpg"></a><br>在视频播放时，可以看到‘开发人员工具’中各项目是动态变化的。而在此处，我们要寻找的是ts文件（ts文件是大多数视频网站的视频分段缓冲文件）<br>找到当前网页数字最大的ts文件，从上图中得出30.ts文件。对该文件单击右键再’copy link address’复制该文件链接。</p>
-<h2 id="3-下载视频分段文件"><a href="#3-下载视频分段文件" class="headerlink" title="3.下载视频分段文件"></a>3.下载视频分段文件</h2><p>此处我们复制到的链接是：<a href="https://cdn-5.haku99.com/hls/2019/05/14/4JdRQ9AZ/out030.ts。" target="_blank" rel="noopener">https://cdn-5.haku99.com/hls/2019/05/14/4JdRQ9AZ/out030.ts。</a> 该链接末尾是out030.ts对应之前的30.ts。<br>表明需要我们生成30个文件链接来下载30个文件。在迅雷中新建批量任务，将复制的链接粘贴至’通过Url过滤’链接栏中。<br>再将末尾中的out030.ts替换为out0(*).ts。之后的选项设置如下：<br><img src="https://s2.ax1x.com/2019/08/12/mp0iQK.jpg" alt="mp0iQK.jpg"><br>点击确定，之后推荐把’合并为任务组’勾上以将所有分段文件保存在同一文件夹内方便合并。<br><label style="color:#808080"><b>PS：如果要下载一百个文件以上，则扩大通配符长度比如上面的out030.ts则改为out(*).ts通配符长度设置为3.（注意括号必须是英文括号）</b></label></p>
-<h2 id="4-合并视频分段文件"><a href="#4-合并视频分段文件" class="headerlink" title="4.合并视频分段文件"></a>4.合并视频分段文件</h2><p>文件下载完成后打开格式工厂在左侧’视频’栏中找到’视频合并’<br><a href="https://imgchr.com/i/mpqBPs" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/08/13/mpqBPs.jpg" alt="mpqBPs.jpg"></a><br>再’添加文件夹’找到刚刚下载的文件夹，确定后即开始导入。最后点击’开始’进行视频合并。<br><label style="color:#808080"><b>PS:格式工厂的文件导入数量会有一定限制(一般最大个数为100)。当需要合并的文件超出100个时，可以先合并100个之后再进行多次合并。</b></label></p>
-
         
     </article>
     <footer class="cube-excerpt-footer">
@@ -407,17 +400,17 @@
     <div class="cube-boxs">
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/win10/">#win10</a>
         </div>
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/网址推荐/">#网址推荐</a>
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/资源获取/">#资源获取</a>
         </div>
         
